@@ -8,6 +8,8 @@ header {
 
 .navbar-nav {
   align-items: center; }
+  .navbar-nav li {
+    margin-left: 25px; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
@@ -157,8 +159,10 @@ header {
     max-width: 278px;
     width: 100%;
     color: #FFFFFF; }
+  .value .row {
+    align-items: stretch; }
 
 img:last-of-type {
-  padding: 30px; }
+  padding: 34px; }
 
 /*# sourceMappingURL=style.css.map */

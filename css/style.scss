@@ -8,6 +8,9 @@ header{
 }
 .navbar-nav{
   align-items: center;
+  li{
+    margin-left: 25px;
+  }
 }
 .navbar-light .navbar-nav .nav-link{
   color: #fff;
@@ -175,8 +178,11 @@ header{
     width: 100%;
     color: #FFFFFF;
   }
+  .row{
+    align-items: stretch;
+  }
 
 }
 img:last-of-type{
-  padding: 30px;
+  padding: 34px;
 }
