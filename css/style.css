@@ -145,4 +145,20 @@ header {
   padding: 0;
   border: solid 1px #8DD83D !important; }
 
+.value {
+  background: radial-gradient(ellipse at center, #373a3c 0%, #686c6b 50%, #373a3c 100%);
+  padding-top: 64px;
+  padding-bottom: 162px; }
+  .value a {
+    display: inline-block;
+    border: none;
+    background-color: #8DD83D;
+    padding: 20px 0;
+    max-width: 278px;
+    width: 100%;
+    color: #FFFFFF; }
+
+img:last-of-type {
+  padding: 33px; }
+
 /*# sourceMappingURL=style.css.map */
