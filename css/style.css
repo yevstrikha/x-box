@@ -169,16 +169,30 @@ header {
       .value .value_text h2 span {
         font-size: 36px;
         line-height: 42px; }
-    .value .value_text img {
-      margin-bottom: 16px; }
-  .value .row {
-    align-items: stretch; }
+
+.img_center {
+  padding: 55px;
+  background-color: #FAFAFA; }
+
+.img_right {
+  padding: 31px 55px;
+  background-color: #FAFAFA; }
+
+.owl-item.active {
+  width: 318px !important; }
+
+.last {
+  max-height: 180px;
+  height: 100%; }
 
 .exclusive {
   position: relative;
   background-image: url(../images/WWII.jpg);
+  background-size: cover;
   padding-top: 97px;
   padding-bottom: 140px; }
+  .exclusive .owl-carousel {
+    padding-left: 67px; }
   .exclusive .shadow {
     position: absolute;
     top: 0;
@@ -186,9 +200,15 @@ header {
     bottom: 0;
     background-color: #171717;
     opacity: 0.5; }
+  .exclusive .owl-theme .owl-dots .owl-dot span {
+    display: none; }
+
+.card:hover {
+  zoom: 110%; }
 
 .design {
   background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%), url(../images/design.jpg);
+  background-size: cover;
   padding: 150px 0; }
 
 footer {
