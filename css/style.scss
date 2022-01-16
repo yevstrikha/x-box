@@ -93,10 +93,10 @@ header{
  }
 
 .main_banner.banner_2{
-  position: relative;
   background-image: url(../images/WWII.jpg);
   padding-top: 110px;
-  padding-bottom: 200px;
+  padding-bottom: 290px;
+  height: 100%;
   .shadow{
     position: absolute;
     top: 0;
@@ -203,14 +203,13 @@ header{
   padding: 31px 55px;
   background-color: #FAFAFA;
 }
-.owl-item.active{
-  width: 318px!important;
-
-}
 
 .last {
-  max-height: 180px;
+  max-height: 161.88px;
   height: 100%;
+}
+.container{
+  z-index: 2;
 }
 .exclusive{
   position: relative;
@@ -218,9 +217,59 @@ header{
   background-size: cover;
   padding-top: 97px;
   padding-bottom: 140px;
-.owl-carousel{
+  text-align: center;
+  .card{
+    .card-body{
+      text-align: left;
+      color: #435766;
+    }
+  }
+  .exclusive_btn{
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    font-size: 21px;
+    line-height: 21px;
+    padding: 11px 47px 21px 47px;
+    color: #FFFFFF;
+    &:hover{
+      background: linear-gradient(180deg, #8DD83D 0%, #8DD83D 100%);
+      text-decoration: none;
+    }
+  }
+  }
+
+  h4{
+    position: relative;
+    margin-bottom: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 3;
+  }
+.owl-value{
   padding-left: 67px;
+  margin-bottom: 58px;
+  .owl-prev, .owl-next{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    span{
+      display: none;
+    }
+  }
+.btn{display: inline-block;
+  text-align: center;
+  background-color: #8DD83D;
+  padding: 15px 0;
+  width: 100%;
+  border: none;
 }
+}
+  .owl-dots{
+    display: none;
+  }
   .shadow{
     position: absolute;
     top: 0;
@@ -232,16 +281,47 @@ header{
   .owl-theme .owl-dots .owl-dot span{
     display: none;
   }
-}
-.card:hover{
-  zoom: 110%;
+.owl-item {
+  opacity: 0.9;
 }
 .design{
   background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%),url(../images/design.jpg);
   background-size: cover;
   padding: 150px 0;
-}
 
+  h4{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  p{
+color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 37px;
+  }
+  a{
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 20px 55px;
+    font-size: 16px;
+    line-height: 21px;
+    background-color:#373A3C;
+    border-radius: 4px;
+    text-decoration: none;
+    &:hover{
+      background-color: blue;    }
+    &:last-child{
+      background-color: #8DD83D;
+      &:hover{
+        background-color: blue;
+      }
+
+    }
+  }
+
+}
 
 
 
@@ -264,13 +344,18 @@ h4{
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 34px;
+  text-align: left;
 }
+
   ul{
     list-style: none;
     a{
       display: inline-block;
       color: #FFFFFF;
       margin-bottom: 29px;
+      &:last-child{
+        margin-bottom: 49px;
+      }
       &:hover{
         text-decoration: none;
         color: #8DD83D;
@@ -297,7 +382,14 @@ h4{
 
 
 
-
+hr{
+  background-color: #fff;
+}
+.inner{
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
 
 
 
