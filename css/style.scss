@@ -219,6 +219,7 @@ header{
   padding-bottom: 140px;
   text-align: center;
   .card{
+
     .card-body{
       text-align: left;
       color: #435766;
@@ -265,6 +266,10 @@ header{
   padding: 15px 0;
   width: 100%;
   border: none;
+  &:hover{
+    background-color: #686C6F;
+    opacity:1;
+  }
 }
 }
   .owl-dots{
@@ -281,9 +286,16 @@ header{
   .owl-theme .owl-dots .owl-dot span{
     display: none;
   }
-.owl-item {
+.item-value {
+  position: relative;
   opacity: 0.9;
-}
+  transition: 0.3s;
+  &:hover{
+    position: absolute;
+    zoom: 1.1;
+    margin-bottom: 15px;
+  }}
+
 .design{
   background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%),url(../images/design.jpg);
   background-size: cover;

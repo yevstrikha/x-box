@@ -232,6 +232,9 @@ h4 {
     padding: 15px 0;
     width: 100%;
     border: none; }
+    .owl-value .btn:hover {
+      background-color: #686C6F;
+      opacity: 1; }
 
 .owl-dots {
   display: none; }
@@ -247,8 +250,14 @@ h4 {
 .owl-theme .owl-dots .owl-dot span {
   display: none; }
 
-.owl-item {
-  opacity: 0.9; }
+.item-value {
+  position: relative;
+  opacity: 0.9;
+  transition: 0.3s; }
+  .item-value:hover {
+    position: absolute;
+    zoom: 1.1;
+    margin-bottom: 15px; }
 
 .design {
   background: radial-gradient(100% 100% at 50% 0%, rgba(193, 255, 127, 0.1) 0%, rgba(141, 216, 61, 0.1) 100%), url(../images/design.jpg);
