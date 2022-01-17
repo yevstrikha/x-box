@@ -202,6 +202,9 @@ header {
   padding-top: 97px;
   padding-bottom: 140px;
   text-align: center; }
+  .exclusive h4 {
+    font-size: 36px;
+    line-height: 42px; }
   .exclusive .card .card-body {
     text-align: left;
     color: #435766;
