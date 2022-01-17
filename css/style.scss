@@ -1,7 +1,12 @@
+@import "font";
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family: $main_font;
 }
 header{
   background-color: #373A3C;
@@ -219,10 +224,11 @@ header{
   padding-bottom: 140px;
   text-align: center;
   .card{
-
     .card-body{
       text-align: left;
       color: #435766;
+      max-width: 286px;
+      width: 100%;
     }
   }
   .exclusive_btn{
@@ -336,17 +342,6 @@ color: #FFFFFF;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 footer{
   background-color: #373A3C;
   padding-top: 58px;
@@ -402,7 +397,5 @@ hr{
   justify-content: space-between;
   color: #FFFFFF;
 }
-
-
 
 

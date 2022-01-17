@@ -1,7 +1,17 @@
+@font-face {
+  font-family: 'HelveticaNeueW01-66MediumIt';
+  src: url("../fonts/HelveticaNeueW01-66MediumIt.eot");
+  src: url("../fonts/HelveticaNeueW01-66MediumIt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueW01-66MediumIt.woff2") format("woff2"), url("../fonts/HelveticaNeueW01-66MediumIt.woff") format("woff"), url("../fonts/HelveticaNeueW01-66MediumIt.ttf") format("truetype"), url("../fonts/HelveticaNeueW01-66MediumIt.svg#HelveticaNeueW01-66MediumIt") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "HelveticaNeueW01-66MediumIt"; }
 
 header {
   background-color: #373A3C; }
@@ -194,7 +204,9 @@ header {
   text-align: center; }
   .exclusive .card .card-body {
     text-align: left;
-    color: #435766; }
+    color: #435766;
+    max-width: 286px;
+    width: 100%; }
   .exclusive .exclusive_btn {
     display: inline-block;
     position: relative;

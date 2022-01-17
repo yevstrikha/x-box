@@ -27,11 +27,17 @@ $('.owl-value').owlCarousel({
             nav:true
         },
         600:{
-            items:2,
-            margin:0,
+            items:2.7,
+            margin:-10,
             nav:true
         },
-        1000:{
+        993:{
+            items:3.2,
+            margin:40,
+            nav:true,
+            loop:true
+        },
+        1100:{
             items:3.8,
             margin:40,
             nav:true,
